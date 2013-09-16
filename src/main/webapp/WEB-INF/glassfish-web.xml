@@ -14,5 +14,14 @@
         <group-name>admin</group-name>
     </security-role-mapping>
 
+    <security-role-mapping>
+        <role-name>security</role-name>
+        <group-name>security</group-name>
+    </security-role-mapping>
+
+    <resource-ref>
+        <res-ref-name>jdbc/securityDatasource</res-ref-name>
+        <jndi-name>jdbc/securityDatasource</jndi-name>
+    </resource-ref>
 
 </glassfish-web-app>
